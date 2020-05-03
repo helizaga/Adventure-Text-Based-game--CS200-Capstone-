@@ -5,6 +5,7 @@ Exit::Exit(const string name, const string description, Direction direction, Roo
 	Type = EXIT;
 	m_Direction = direction;
 	Source = source;
+	Destination = destination;
 	IsOpen = open;
 	IsLocked = locked;
 	IsLockable = lockable;
